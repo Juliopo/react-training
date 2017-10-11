@@ -7,7 +7,7 @@ export class AppContainer extends Component {
     return (
       <div className="jumbotron">
         <div className="container">
-          <h1 className="display-3">Velocity Training</h1>
+          <h1 className="display-3 text-center">Velocity Training</h1>
         </div>
       </div>
     );
