@@ -17,6 +17,12 @@ export class ListContainer extends Component {
       );
     }
 
+    if (this.props.params.id) {
+      return (
+        <List list={[this.props.params.id]} />
+      );
+    }
+
     return (
       <List list={ this.props.list } />
     );

@@ -1,8 +1,11 @@
+import { routerReducer } from 'react-router-redux';
 import { combineReducers } from 'redux';
+
 import listReducer from './listReducer';
 
 const rootReducer = combineReducers({
-  listReducer
+  listReducer,
+  routing: routerReducer
 });
 
 export default rootReducer;

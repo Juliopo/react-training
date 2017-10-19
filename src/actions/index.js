@@ -6,13 +6,13 @@ import {
 const mockData = ['hugo', 'paco', 'luis'];
 
 
-const fetchListRequest = () => {
+export const fetchListRequest = () => {
   return {
     type: REQUEST_LIST
   };
 };
 
-const fetchListReceive = (list) => {
+export const fetchListReceive = (list) => {
   return {
     type: RECEIVE_LIST,
     list
