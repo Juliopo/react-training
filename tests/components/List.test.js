@@ -1,4 +1,4 @@
-/* global test describe jest expect:true */
+/* global test describe expect:true */
 import React from 'react';
 import { shallow } from 'enzyme';
 
