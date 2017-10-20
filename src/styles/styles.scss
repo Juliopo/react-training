@@ -9,5 +9,32 @@ $myVar: 0px;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
 
+
+.list-item, .edit-container {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  margin: 40px 0;
+  text-align: center;
+}
+
+.list-item img, .edit-container img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.list-item .info {
+  margin-top: 10px;
+}
+
+.list-item .btn {
+  color: white;
+}
+
+.edit-container input {
+  margin: 10px 0;
+  width: 60%;
 }
